@@ -16,3 +16,4 @@ elif 13 <= age <= 18:
 elif age >= 19:
     balance -= 1250
 print(balance)
+

@@ -10,12 +10,16 @@
 
 # if written_test>=80 and coding_test==True:
 
-R = int(input())
-M = int(input())
-E = int(input())
-S = int(input())
+- 퀴즈
 
-if R >= 80 and M >= 80 and E >= 80 and S >= 80:
-    print("Qualified")
-else R, M, E, S < 0 or R, M, E, S > 100:
+
+R, M, E, S = map(int, input().split())
+
+if 0<R=<100, and 0<M=<100, and 0<E=<100, and 0<S=<100:
+    Average = (R+M+E+S)/4
+    if Average>=80:
+        print("yes", Average)
+    else: 
+        print("no")
+else: 
     print("no")
