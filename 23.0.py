@@ -37,10 +37,7 @@
 
 
 # a = [[[0 for i in range(3)] for j in range(4)] for z in range(2)]
-
-n = int(input())
-for i in range(n):
-    j = 0
-    for j in i:
-        print(n)
-    print()
+row = int(input())
+matrix = []
+for i in range(row):
+    matrix.append(list(input()))

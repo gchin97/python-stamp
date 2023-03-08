@@ -34,13 +34,14 @@
 # b= [i for i in a if len(a)==5]
 
 # make it as a list
-start, end = map(int, input().split())
-_list = list(2**i for i in range(start, end + 1))
-del _list[1]
-del _list[-1]
-print(_list)
+# start, end = map(int, input().split())
+# _list = list(2**i for i in range(start, end + 1))
+# del _list[1]
+# del _list[-1]
+# print(_list)
 
 
-start, end = map(int, input().split())
-calculation = list(2**i for i in range(start, end+1))
-print(calculation)
+# start, end = map(int, input().split())
+# calculation = list(2**i for i in range(start, end+1))
+# print(calculation)
+
