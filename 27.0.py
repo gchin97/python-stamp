@@ -60,8 +60,7 @@ with open("words.txt", "r") as file:
     print(count)
 
 with open("words.txt", "r") as file:
-    words = file.readlines()
+    words = line.split()
     for word in words:
-        if word.__contains__("c"):
-            word = word
-        print(word)
+        if "c" in word:
+            print(word.strip(",."))

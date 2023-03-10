@@ -45,10 +45,8 @@
 
 
 with open("words.txt", "r") as file:
-    is_pali = True
-    word = input().split("\n")
-
-    for i in range(len(word)//2 == 0):
-        if word[i] == word[-1-i]:
-            is_pali = False
-    print(word)
+    for line in file:
+        words = line.split()
+        for word in words:
+            if list(word) == list(reversed(word)):
+                print(word.strip())
