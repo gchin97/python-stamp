@@ -34,3 +34,6 @@ def file_read():
             if line == "":
                 break
             yield line.strip("\n")
+
+
+line strip
