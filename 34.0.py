@@ -59,5 +59,9 @@ class Annie:
         self.health = health
         self.mana = mana
         self.ability_power = ability_power
+
     def tibbers(self):
-        print("티버: 피해량 {0}".format(self.ability_power *0.65 + 400))
+        print("티버: 피해량 {0}".format(self.ability_power * 0.65 + 400))
+
+        If else
+    if else
